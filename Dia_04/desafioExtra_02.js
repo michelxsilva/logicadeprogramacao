@@ -5,7 +5,7 @@
 let jogo = ['Pedra', 'Papel', 'Tesoura']
 let computador = jogo[Math.floor(Math.random()* jogo.length)]
 let index = jogo.unshift('')
-let usuario = jogo[1]
+let usuario = jogo[3]
 if((computador === "Pedra" && usuario === "Tesoura") ||
 (computador === "Papel" && usuario === "Pedra") ||
 (computador === "Tesoura" && usuario === "Papel") 
